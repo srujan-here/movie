@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        .container {
+           
+          left:50%;
+          top:50%;
+          position:fixed;
+          transform: translate(-50%, -50%);
+          width:40%;
+            
+            display:flex;
+            justify-content:center;
+            background-color: aqua;
+
+            border-radius:20px;
+         
+            
+        }
+        form{
+            padding:40px;
+            margin:20px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            top: 20%;
+            
+        }
+        .name1,.age{
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-radius:20px;
+            width:150px;
+        }
+       button{
+           margin-top: 20px;
+           border-radius:20px;
+           padding:5px;
+
+       }
+        @media(max-width:638px){
+           .container{
+               width:60%;
+
+           }
+        }  
+
+            
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form action="" get="POST">
+            Name : <input name="name" type="text" class="name1">
+            Age : <input type="number" name="number" class="age">
+
+    <button id="submit">Submit</button>
+            
+        </form>
+        
+    </div>
+    <a href="index.html">CLick Here</a>
+    <!-- <label>Login</label>
+    <a href="home.html">Submit</a><br> -->
+    <!-- <label for="">Sign up</label> -->
+    <!-- <a href="signup.html">Submit</a> -->
+
+</body>
+</html>
